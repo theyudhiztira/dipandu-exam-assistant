@@ -236,7 +236,10 @@ const App: React.FC = () => {
                                 />
                                 <datalist id="models">
                                     <option value="google/gemini-2.5-flash" />
+                                    <option value="google/gemini-3.1-flash-lite" />
+                                    <option value="anthropic/claude-sonnet-4.6" />
                                     <option value="anthropic/claude-3-opus" />
+                                    <option value="deepseek/deepseek-v4-flash" />
                                     <option value="openai/gpt-4-turbo" />
                                 </datalist>
                             </div>
